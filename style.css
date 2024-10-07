@@ -1,0 +1,18 @@
+.members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.member {
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.member img {
+    width: 100%;
+    height: auto;
+}
