@@ -1,10 +1,12 @@
 /* This is so that there isn't any empty space on the outside of the navbar */
 body {
     margin: 0;
+    font-family: "League Spartan", sans-serif;
 }
 
 .nav {
     display: flex;
+    align-items: center;
     /*background-color: red;*/
 }
 
@@ -15,6 +17,12 @@ body {
 }
 
 #logo {
-    margin-left: 20px;
-    width: 100px;
+    margin-left: 30px;
+    width: 75px;
+}
+
+#title {
+    margin-left: 5px;
+    font-size: x-large;
+    width: 300px;
 }
