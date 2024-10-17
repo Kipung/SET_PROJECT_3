@@ -7,13 +7,13 @@ body {
 .nav {
     display: flex;
     align-items: center;
-    /*background-color: red;*/
+    /*border: solid yellow;*/
 }
 
 .nav > div {
     margin: 10px;
     padding: 3px;
-    /*background-color: blue;*/
+    /*border: solid blue;*/
 }
 
 #logo {
