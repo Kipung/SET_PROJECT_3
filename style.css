@@ -1,18 +1,62 @@
+body {
+    font-family: 'League Spartan', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 .members {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+
 }
 
 .member {
-    width: 100px;
-    border: 1px solid black;
+    width: 125px;
+    border: 5px solid #004AAD;
     border-radius: 10px;
     padding: 10px;
     text-align: center;
 }
 
-.member img {
+.member h3 {
+    font-size: 15px;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.profile-picture {
     width: 100%;
     height: auto;
+}
+
+.email-icon-container {
+    background-color: #004AAD;
+    padding: 2px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-icon  {
+    text-decoration: none;
+    filter: invert(1);
+    height: 15px;
+    width: 15px;
+}
+
+.year-email {
+    font-size: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.year-email p {
+    margin: 5px;
+    vertical-align: center;
 }
