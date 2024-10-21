@@ -1,15 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
 .description {
-    float: center;
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 48px;
+}
+
+.flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill,minmax(160px, 1fr));
+    padding-left: 111px;
+    padding-right: 111px;
+    gap: 16px;
 }
 
 .column {
-    float: left;
-    width: 25%;
+    flex: 1;
+    width: 365px;
+    padding: 30px;
+    text-align: center;
+    border: 15px solid #004AAD;
+    border-radius: 15px;
 }
-  
+
 /* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
+}
+
+.name {
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 36px;
+}
+
+.gradclass {
+    display: inline-block;
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
 }
