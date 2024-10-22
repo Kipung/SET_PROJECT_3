@@ -50,6 +50,7 @@ footer {
     justify-content: center; 
     text-decoration: none; 
     font-size: 2.5rem;
+    transition: 0.2s ease-in-out;
 }
 
 .footer-icons img {
@@ -93,5 +94,9 @@ footer {
     border-bottom: 40px solid #004aad; 
     margin-right: -10px; 
     transform: rotate(90deg);
+}
+
+a:hover {
+    transform: translateY(-10px);
 }
 
