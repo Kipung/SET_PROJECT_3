@@ -7,13 +7,20 @@ body {
 .nav {
     display: flex;
     align-items: center;
-    /*border: solid yellow;*/
+    border: solid yellow;
 }
 
 .nav > div {
-    margin: 10px;
-    padding: 3px;
-    /*border: solid blue;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7px;
+    padding: 2px;
+    border: solid blue;
+}
+
+.nav_links {
+    margin: 3px;
 }
 
 #logo {
@@ -22,7 +29,24 @@ body {
 }
 
 #title {
-    margin-left: 5px;
+    margin-left: 2px;
     font-size: x-large;
-    width: 300px;
+    width: 275px;
+}
+
+#connect {
+    margin-right: 20px;
+}
+
+.diamond {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+
+    background: #004AAD;
+    border-radius: 3px;
+    transform: rotate(-45deg);
+
+    margin-left: 5px;
+    margin-right: 5px;
 }
