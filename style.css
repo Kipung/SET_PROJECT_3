@@ -6,7 +6,7 @@ body {
 }
 
 .description {
-    justify-content: center;
+    text-align: center;
     font-family: 'League Spartan', sans-serif;
     font-size: 48px;
 }
