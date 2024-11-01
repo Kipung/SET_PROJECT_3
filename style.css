@@ -29,6 +29,11 @@ body {
     border-radius: 15px;
 }
 
+.image {
+    border-radius: 25px;
+    width: 305px;
+}
+
 /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -70,4 +75,9 @@ body {
     filter: invert(1);
     height: 35px;
     width: 35px;
+}
+
+a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 0px 20px gray;
 }
