@@ -7,7 +7,7 @@ body {
 .nav {
     display: flex;
     align-items: center;
-    border: solid yellow;
+    /* border: solid yellow; */
 }
 
 .nav > div {
@@ -16,8 +16,8 @@ body {
     justify-content: center;
     margin: 7px;
     padding: 2px;
-    border: solid blue;
-}
+    /* border: solid blue; */
+} 
 
 .nav_links {
     margin: 3px;
@@ -49,4 +49,16 @@ body {
 
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.lets-connect-border {
+    width: 140px;
+    height: 35px;
+
+    background: #004AAD;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
