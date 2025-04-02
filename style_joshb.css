@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+body {
+    justify-content: center;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.description {
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 48px;
+}
+
+.flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill,minmax(160px, 1fr));
+    padding-left: 111px;
+    padding-right: 111px;
+    gap: 16px;
+}
+
+.column {
+    flex: 1;
+    width: 365px;
+    padding: 30px;
+    text-align: center;
+    border: 15px solid #004AAD;
+    border-radius: 15px;
+}
+
+.image {
+    border-radius: 25px;
+    width: 305px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.name {
+    font-size: 36px;
+}
+
+.role {
+    font-size: 24px;
+}
+
+.year-email {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gradclass {
+    font-size: 20px;
+}
+
+.email-icon-container {
+    display: flex;
+    background-color: #004AAD;
+    padding: 2px;
+    border-radius: 50%;
+    height: 47px;
+    width: 47px;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-icon  {
+    text-decoration: none;
+    filter: invert(1);
+    height: 35px;
+    width: 35px;
+}
+
+a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 0px 20px gray;
+}
