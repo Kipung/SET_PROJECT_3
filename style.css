@@ -60,3 +60,63 @@ body {
     margin: 5px;
     vertical-align: center;
 }
+/* This is so that there isn't any empty space on the outside of the navbar */
+
+.nav {
+    display: flex;
+    align-items: center;
+    /* border: solid yellow; */
+}
+
+.nav > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7px;
+    padding: 2px;
+    /* border: solid blue; */
+} 
+
+.nav_links {
+    margin: 3px;
+}
+
+#logo {
+    margin-left: 30px;
+    width: 75px;
+}
+
+#title {
+    margin-left: 2px;
+    font-size: x-large;
+    width: 275px;
+}
+
+#connect {
+    margin-right: 20px;
+}
+
+.diamond {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+
+    background: #004AAD;
+    border-radius: 3px;
+    transform: rotate(-45deg);
+
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.lets-connect-border {
+    width: 140px;
+    height: 35px;
+
+    background: #004AAD;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
