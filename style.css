@@ -7,16 +7,26 @@
     font-family: 'League Spartan', sans-serif;
 }
 
+main {
+  background-image: url('images/SET_Home_Page_Image.png');
+  background-size: cover;
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  min-height: 80vh; /* Makes sure the main section has enough height to show the image */
+}
+
 body {
     font-family: 'League Spartan', sans-serif;
     margin: 0;
     padding: 0;
+    
 }
 
 /* Navbar Styling */
 .nav {
     display: flex;
     align-items: center;
+    border-bottom: 8px solid #004AAD;
 }
 
 .nav > div {
@@ -31,30 +41,34 @@ body {
     margin: 3px;
 }
 
+.nav_links:hover {
+    cursor: pointer;
+}
+
 #logo {
     margin-left: 30px;
     width: 75px;
 }
 
 #title {
-    margin-left: 2px;
-    font-size: x-large;
+    margin-left: -45px;
+    font-size: 30px;
     width: 275px;
 }
 
 #connect {
     margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
-.diamond {
-    position: absolute;
-    width: 14px;
-    height: 14px;
-    background: #004AAD;
-    border-radius: 3px;
-    transform: rotate(-45deg);
-    margin-left: 5px;
-    margin-right: 5px;
+.diamond-nav {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #004aad; /* Blue color - match with your branding */
+  transform: rotate(45deg); /* This creates the diamond shape */
+  margin: 0 10px; 
 }
 
 .lets-connect-border {
@@ -125,12 +139,22 @@ body {
     vertical-align: center;
 }
 
+/* Front page styling */
+.content {
+  display: flex;
+  font-size: 25px;
+  width: 40%;
+  padding: 50px;
+  color: white
+}
+
+
 /* Footer Styling */
 footer {
     margin-top: 400px;
-    border: 1px solid black;
-    height: 175px;
+    height: 170px;
     border-top: 8px solid #004aad;
+    background-color: white;
 }
 
 .footer-container {
