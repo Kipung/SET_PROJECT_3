@@ -5,47 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CBU ACM</title>
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="/SET_PROJECT_3/css/about.css">
+    <link rel="stylesheet" href="/SET_PROJECT_3/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
-    <div class="nav">
-        <div>
-            <img src="images/ACMatCBULogo.png" alt="ACM Logo" id="logo">
+    
+    <!-- navigation bar -->
+    <header> 
+        <div class="nav">
+            <div>
+                <img src="/SET_PROJECT_3/images/ACMatCBULogo.png" alt="ACM Logo" id="logo">
+            </div>
+            <div id="title">
+                <strong>at CalBaptist</strong>
+            </div>
+            
+            <div class="nav_links" id="home-link">
+                <a href="/SET_PROJECT_3/html/index.html">Home</a>
+                <div>
+                    <span class="diamond-nav"></span>
+                </div>
+            </div>
+            
+            <div class="nav_links">
+                Teams
+                <div>
+                    <span class="diamond-nav"></span>
+                </div>
+            </div>
+            
+            <div class="nav_links">
+                <a href="/SET_PROJECT_3/html/about.html">About</a>
+                <div>
+                    <span class="diamond-nav"></span>
+                </div>
+            </div>
+
+            <div class="nav_links" id="connect">
+                <span class="lets-connect-border"> <a href="/SET_PROJECT_3/html/contact.html"> Let's Connect!</a></span>
+            </div>
         </div>
-        <div id="title">
-            <a href="index.html" style="text-decoration: none; color: black;">
-            <strong>Association for<br>Computing Machinery</strong>
-            </a>
-        </div>
-        <div class="nav_links" style="margin-left: auto;">
-            <a href="index.html" style="text-decoration: none; color: black;">Home</a>
-        </div>
-        <div>
-            <span class="diamond"></span>
-        </div>
-        <div class="nav_links">
-            <a href="teams.html" style="text-decoration: none; color: black;">Teams</a>
-        </div>
-        <div>
-            <span class="diamond"></span>
-        </div>
-        <div class="nav_links">
-            <a href="about.html" style="text-decoration: none; color: black;">About</a>
-        </div>
-        <div>
-            <span class="diamond"></span>
-        </div>
-        <div class="nav_links" id="connect">
-            <a href="https://discord.gg/K7Jv9aBV" target="_blank" style="text-decoration: none; color: white;">
-            <span class="lets-connect-border">
-                Let's Connect!
-            </span>
-            </a>
-        </div>
-    </div>
-    <div class="line"></div>
+    </header>
+     <!-- navigation bar -->
 
     <div class="about-container">
         <div class="about_title">
@@ -80,7 +83,8 @@
         <div style="height: 250px;"></div>
 
 
-    <footer style="bottom: 0;">
+    <!-- footer -->
+    <footer>
         <div class="footer-container">
             <div class="line-container">
                 <div class="line"></div>
@@ -89,17 +93,17 @@
             <div class="footer-icons">
                 <ul>
                     <li>
-                        <a href="https://discord.gg/K7Jv9aBV" target="_blank" aria-label="Discord">
+                        <a class="footer-links" href="https://discord.gg/K7Jv9aBV" target="_blank" aria-label="Discord">
                             <i class="fab fa-discord"></i> 
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/acm_cbu/" target="_blank" aria-label="Instagram">
+                        <a class="footer-links" href="https://www.instagram.com/acm_cbu/" target="_blank" aria-label="Instagram">
                             <i class="fab fa-instagram"></i> 
                         </a>
                     </li>
                     <li>
-                        <a href="mailto:example@example.com" aria-label="Email">
+                        <a class="footer-links" href="mailto:example@example.com" aria-label="Email">
                             <i class="fas fa-envelope"></i>
                         </a>
                     </li>
@@ -112,10 +116,9 @@
             </div>
         </div>
     </footer>
+     <!-- footer -->
 
-    <div id="container"> 
-        <!-- This is not a container. -->
-    </div>
+    
 </body>
 
 </html>
