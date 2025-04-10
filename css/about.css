@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+
+
+/* About Section */
+.about_title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+}
+
+.about_text {
+    font-size: 25px;
+    line-height: 1.5;
+    margin-right: 700px;
+    margin-left: 40px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding: 0px 40px;
+    text-align: justify;
+    display: inline-flex;
+}
+
+.big_blue_square1 {
+    width: 350px;
+    height: 500px;
+    background: #004AAD;
+    border-radius: 15px;
+    display: inline-flex;
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+}
+
+.big_cyan_square1 {
+    width: 350px;
+    height: 500px;
+    background: #5CE1E6;
+    border-radius: 15px;
+    display: inline-flex;
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+}
+
+.img_size1 {
+    width: 350px;
+    height: 500px;
+    border-radius: 15px;
+    display: inline-flex;
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+}
+
+.big_blue_square2 {
+    width: 600px;
+    height: 450px;
+    background: #004AAD;
+    border-radius: 15px;
+    display: inline-flex;
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+}
+
+.big_cyan_square2 {
+    width: 600px;
+    height: 450px;
+    background: #5CE1E6;
+    border-radius: 15px;
+    display: inline-flex;
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+}
+
+.img_size2 {
+    width: 60%;
+    height: 60%;
+    border-radius: 15px;
+    display: inline-flex;
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+}
