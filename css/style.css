@@ -42,6 +42,28 @@ header a {
     color: inherit;
 }
 
+.title {
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+}
+
+.text {
+    font-size: 25px;
+    line-height: 1.5;
+    margin-right: 400px;
+    margin-left: 40px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding: 0px 0px;
+    text-align: justify;
+    display: inline-flex;
+}
+
 
 #home-link {
     margin-left: auto;
@@ -75,6 +97,7 @@ header a {
   background-color: #004aad; /* Blue color - match with your branding */
   transform: rotate(45deg); /* This creates the diamond shape */
   margin: 0 10px; 
+  border-radius: 2px;
 }
 
 .lets-connect-border {
@@ -94,8 +117,16 @@ header a {
     font-size: 25px;
     width: 40%;
     padding: 50px;
-    color: white
+    color: white;
   }
+
+.content_teams {
+    display: flex;
+    font-size: 25px;
+    width: 40%;
+    padding: 10px 20px;
+    color: white;
+}
 
 /* Footer Styling */
 footer {
