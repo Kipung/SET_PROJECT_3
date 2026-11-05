@@ -1,4 +1,4 @@
-<picture><source media="(prefers-color-scheme: dark)" srcset=".github/banner-dark.svg"><img src=".github/banner-light.svg" width="100%" alt="CBU ACM Website, built by the ACM Software Engineering Team."></picture>
+<picture><source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset=".github/banner-m-dark.svg"><source media="(max-width: 640px)" srcset=".github/banner-m-light.svg"><source media="(prefers-color-scheme: dark)" srcset=".github/banner-dark.svg"><img src=".github/banner-light.svg" width="100%" alt="CBU ACM Website, built by the ACM Software Engineering Team."></picture>
 
 The website for the **ACM chapter at California Baptist University**, built by the chapter's **Software Engineering Team (SET)**. It was run like a real team project, with branches, pull requests and sprints, using Scrum and GitHub flow.
 
